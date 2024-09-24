@@ -1,14 +1,18 @@
-// --- List of websites you want to add to miniProject ---
-// loading screen
-// following eyes
-// neon-btn
-// raining code
-// threejs room
-// pomodoro
-// globe.info
-// ip address
-// 3dNavbar?
-// audioVisualizer
-// bouncing-physics canvas
-// tic-tac-toe game
-// angelaYuPractice ?
+import { navData } from "./navData";
+
+const Navbar = () => {
+  return (
+    <div className="navContainer flex flex-col justify-center items-center">
+      {navData.map( data => (
+          <div className="navElement" key={data.name}>
+            <a href={data.url} target="_blank" rel="noopener noreferrer">
+              <h1>{data.name}</h1>
+            </a>
+          </div>
+        )
+      )}
+    </div>
+  );
+};
+
+export default Navbar;

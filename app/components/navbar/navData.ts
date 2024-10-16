@@ -8,7 +8,7 @@ export const navData = [
         url: "https://akshun-01.github.io/followingEyes/"
     },
     {
-        name: "Neon Button (with Hover Animation)",
+        name: "Neon Button",
         url: "https://akshun-01.github.io/neonBtn/"
     },
     {

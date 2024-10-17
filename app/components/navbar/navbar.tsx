@@ -11,6 +11,7 @@ const Navbar = ({toggleNav}:any) => {
               <h1>{data.name}</h1>
             </a>
             <div className="likeBtn absolute bottom-5 right-10">23 ♥</div>  {/* https://codepen.io/mateusz800/pen/OJPZXMa */}
+            {/* add github link as well */}
           </div>
         )
       )}

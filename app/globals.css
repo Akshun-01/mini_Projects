@@ -16,6 +16,19 @@
   }
 }
 
+@font-face {
+  font-family: Teknaf;
+  src: url(/fonts/Teknaf.otf);
+}
+@font-face {
+  font-family: Exo;
+  src: url(/fonts/Exo.otf);
+}
+@font-face {
+  font-family: Comici;
+  src: url(/fonts/Comici.otf);
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(

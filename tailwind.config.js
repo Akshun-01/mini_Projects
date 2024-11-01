@@ -9,7 +9,13 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        teknaf: ["Teknaf"],
+        comic: ["Comici"],
+        exo: ["Exo"],
+      }
+    },
   },
   plugins: [],
 }
